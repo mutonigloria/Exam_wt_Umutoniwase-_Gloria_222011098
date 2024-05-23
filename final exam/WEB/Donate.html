@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <img src="project images/donate logo.png" style="width:  200PX;height: 140PX;margin-top: -80;">
+    <style>
+     
+      body, html {
+          margin: 0;
+          padding: 0;
+          height: 100%;
+      }
+
+  
+      body {
+          background-image: url('project images/donate.jpeg');
+          background-size: cover; 
+          background-position: center;
+          background-repeat: no-repeat; 
+          background-attachment: fixed; 
+          font-family: Arial, sans-serif;
+          color: white;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          height: 100%;
+      }
+
+      h1 {
+          margin: 0;
+      }
+
+      p {
+          margin: 10px 0;
+      }
+  </style>
+</head>
+<body>
+ <br><br>
+
+    <title>Hope Relief </title>
+    <link rel="stylesheet" href="Web.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <div style="margin-top: 10px;font-size: 30px;background-color: rgba(250, 244, 244, 0.918);color: rgb(243, 239, 239);">
+    <a href="Home.html">Home</a>
+    <a href="About Us.html">About Us</a>
+    <a href="Contact Us.html">Contact Us</a>
+    <a href="Donate.html">Donate</a>
+    <a href="Logout.php">Logout</a>
+    <a href="manage donators.php">manage donators</a>
+    </div>
+
+  <br><br>
+  </head>
+    
+  <body>
+  <main>
+    <section>
+      <h2>Make a Donation</h2>
+      <p>Your support helps us continue our mission.</p>
+      <style>
+        body {
+            background-color: white; /* Optional: Set a background color */
+            color: rgb(115, 6, 231); /* Set the text color to black */
+            font-family: Arial, sans-serif; /* Optional: Set a font */
+            margin: 0;
+            padding: 20px;
+        }
+        body {
+            color: rgb(109, 18, 229); /* Ensure all text elements are black */
+        }
+    </style>
+      <form action="donate.php" method="post">
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" name="amount" min="1" step="1" required>
+        <br><br>
+        <label for="method">Donation Method:</label>
+        <select id="method" name="method">
+          <option value="credit_card">Credit Card</option>
+          <option value="paypal">PayPal</option>
+          <option value="bank_transfer">Bank Transfer</option>
+          <option value="bank_transfer">Mobile money</option>
+          <!-- Add more options as needed -->
+        </select>
+        <br><br>
+        <label for="frequency">Donation Frequency:</label>
+        <select id="frequency" name="frequency">
+          <option value="one_time">One-Time</option>
+          <option value="monthly">Monthly</option>
+          <option value="quarterly">Quarterly</option>
+          <option value="annually">Annually</option>
+          <!-- Add more options as needed -->
+        </select>
+        <br><br>
+        <button type="submit">Donate</button>
+      </form>
+    </section>
+  </main>
+  <br><br>
+  <footer>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+    <p>&copy; 2024 My Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>

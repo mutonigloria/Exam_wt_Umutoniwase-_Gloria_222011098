@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <img src="project images/contact us logo.png" style="width:  200PX;height: 140PX;margin-top: -80;">
+    <style>
+   
+      body, html {
+          margin: 0;
+          padding: 0;
+          height: 100%;
+      }
+
+      body {
+          background-image: url('project images/black\ background.png');
+          background-size: cover; 
+          background-position: center;
+          background-repeat: no-repeat; 
+          background-attachment: fixed; 
+          font-family: Arial, sans-serif;
+          color: white;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          height: 100%;
+      }
+
+      h1 {
+          margin: 0;
+      }
+
+      p {
+          margin: 10px 0;
+      }
+  </style>
+</head>
+<body>
+ 
+
+    <title>Hope Relief </title>
+    <link rel="stylesheet" href="Web.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <div style="margin-top: 10px;font-size: 30px;background-color: black;color: black;">
+    <a href="Home.html">Home</a>
+    <a href="About Us.html">About Us</a>
+    <a href="Contact Us.html">Contact Us</a>
+    <a href="Donate.html">Donate</a>
+    <a href="Logout.php">Logout</a>
+    <a href="manage donators.php">manage donators</a>
+    </div>
+
+  <br><br>
+  </head>
+    
+  <body>
+  <main>
+    <section>
+     
+      <style>
+        body {
+            background-color: white; /* Optional: Set a background color */
+            color: rgb(247, 242, 242); /* Set the text color to black */
+            font-family: Arial, sans-serif; /* Optional: Set a font */
+            margin: 0;
+            padding: 20px;
+        }
+        body {
+            color: rgb(242, 236, 236); /* Ensure all text elements are black */
+        }
+    </style>
+    <p>Please contact us in case of any query or issue, we will be delighted to attend to you</p>
+      <h2>Contact Form</h2>
+      <form action="submit_contact_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="3" required></textarea><br>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Contact Information</h2>
+      <p>Address: Rwanda, Kigali city, kiyovu</p>
+      <p>Phone: 0788563806</p>
+      <p>Email: info@hoperecoveryfoundation.org</p>
+      <h3> Our Social Media Platforms</h3>
+      <div class="social-icons">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+         
+        </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Hope Relief Recover Foundation. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
